@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC783EFF31C7AEE101F9A80 /* libPods-YXYCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E60485FBA08DC24C5B37717 /* libPods-YXYCalendar.a */; };
+		F603B7791E487CB7005A4AA0 /* JSPatchPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F603B7781E487CB7005A4AA0 /* JSPatchPlatform.framework */; };
+		F603B77B1E487D3D005A4AA0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F603B77A1E487D3D005A4AA0 /* libz.tbd */; };
+		F603B77D1E487D51005A4AA0 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F603B77C1E487D51005A4AA0 /* JavaScriptCore.framework */; };
+		F603B7811E48847A005A4AA0 /* YXYCalendarCommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = F603B7801E48847A005A4AA0 /* YXYCalendarCommonMethods.swift */; };
+		F603B7881E4960EA005A4AA0 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = F603B7871E4960EA005A4AA0 /* main.js */; };
+		F64D04A11DF55D6F001321C1 /* EPCalendarConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64D049A1DF55D6F001321C1 /* EPCalendarConstants.swift */; };
+		F64D04A21DF55D6F001321C1 /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64D049B1DF55D6F001321C1 /* EPExtensions.swift */; };
+		F64D04A31DF55D6F001321C1 /* YXYCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64D049C1DF55D6F001321C1 /* YXYCalendarCell.swift */; };
+		F64D04A41DF55D6F001321C1 /* YXYCalendarFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64D049D1DF55D6F001321C1 /* YXYCalendarFooterView.swift */; };
+		F64D04A51DF55D6F001321C1 /* YXYCalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64D049E1DF55D6F001321C1 /* YXYCalendarHeaderView.swift */; };
+		F64D04A61DF55D6F001321C1 /* YXYCalendarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64D049F1DF55D6F001321C1 /* YXYCalendarPicker.swift */; };
+		F64D04A71DF55D6F001321C1 /* YXYCalendarSelectTimeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64D04A01DF55D6F001321C1 /* YXYCalendarSelectTimeHeaderView.swift */; };
+		F65D2B071DEE7973004DAA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65D2B061DEE7973004DAA26 /* AppDelegate.swift */; };
+		F65D2B091DEE7973004DAA26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65D2B081DEE7973004DAA26 /* ViewController.swift */; };
+		F65D2B0C1DEE7973004DAA26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65D2B0A1DEE7973004DAA26 /* Main.storyboard */; };
+		F65D2B0E1DEE7973004DAA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65D2B0D1DEE7973004DAA26 /* Assets.xcassets */; };
+		F65D2B111DEE7973004DAA26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65D2B0F1DEE7973004DAA26 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E60485FBA08DC24C5B37717 /* libPods-YXYCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXYCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF05E7B63F4B0C07D4EC772 /* Pods-YXYCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXYCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXYCalendar/Pods-YXYCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		F603B7781E487CB7005A4AA0 /* JSPatchPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatchPlatform.framework; sourceTree = "<group>"; };
+		F603B77A1E487D3D005A4AA0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F603B77C1E487D51005A4AA0 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F603B77F1E488337005A4AA0 /* YXYCalendar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YXYCalendar-Bridging-Header.h"; sourceTree = "<group>"; };
+		F603B7801E48847A005A4AA0 /* YXYCalendarCommonMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXYCalendarCommonMethods.swift; sourceTree = SOURCE_ROOT; };
+		F603B7871E4960EA005A4AA0 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		F6386A2746777053E4AFC6CF /* Pods-YXYCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXYCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXYCalendar/Pods-YXYCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		F64D049A1DF55D6F001321C1 /* EPCalendarConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPCalendarConstants.swift; sourceTree = "<group>"; };
+		F64D049B1DF55D6F001321C1 /* EPExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPExtensions.swift; sourceTree = "<group>"; };
+		F64D049C1DF55D6F001321C1 /* YXYCalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXYCalendarCell.swift; sourceTree = "<group>"; };
+		F64D049D1DF55D6F001321C1 /* YXYCalendarFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXYCalendarFooterView.swift; sourceTree = "<group>"; };
+		F64D049E1DF55D6F001321C1 /* YXYCalendarHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXYCalendarHeaderView.swift; sourceTree = "<group>"; };
+		F64D049F1DF55D6F001321C1 /* YXYCalendarPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXYCalendarPicker.swift; sourceTree = "<group>"; };
+		F64D04A01DF55D6F001321C1 /* YXYCalendarSelectTimeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXYCalendarSelectTimeHeaderView.swift; sourceTree = "<group>"; };
+		F65D2B031DEE7973004DAA26 /* YXYCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXYCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65D2B061DEE7973004DAA26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F65D2B081DEE7973004DAA26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F65D2B0B1DEE7973004DAA26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F65D2B0D1DEE7973004DAA26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F65D2B101DEE7973004DAA26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F65D2B121DEE7973004DAA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F65D2B001DEE7973004DAA26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F603B77D1E487D51005A4AA0 /* JavaScriptCore.framework in Frameworks */,
+				F603B77B1E487D3D005A4AA0 /* libz.tbd in Frameworks */,
+				ABC783EFF31C7AEE101F9A80 /* libPods-YXYCalendar.a in Frameworks */,
+				F603B7791E487CB7005A4AA0 /* JSPatchPlatform.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F61B5E42AB35D65E6D18E5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6386A2746777053E4AFC6CF /* Pods-YXYCalendar.debug.xcconfig */,
+				BBF05E7B63F4B0C07D4EC772 /* Pods-YXYCalendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5E9A6D4686D99E24A10BEB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F603B77C1E487D51005A4AA0 /* JavaScriptCore.framework */,
+				F603B77A1E487D3D005A4AA0 /* libz.tbd */,
+				9E60485FBA08DC24C5B37717 /* libPods-YXYCalendar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F64D04991DF55D6F001321C1 /* YXYCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F64D049A1DF55D6F001321C1 /* EPCalendarConstants.swift */,
+				F64D049B1DF55D6F001321C1 /* EPExtensions.swift */,
+				F64D049C1DF55D6F001321C1 /* YXYCalendarCell.swift */,
+				F64D049D1DF55D6F001321C1 /* YXYCalendarFooterView.swift */,
+				F64D049E1DF55D6F001321C1 /* YXYCalendarHeaderView.swift */,
+				F64D04A01DF55D6F001321C1 /* YXYCalendarSelectTimeHeaderView.swift */,
+				F64D049F1DF55D6F001321C1 /* YXYCalendarPicker.swift */,
+			);
+			path = YXYCalendar;
+			sourceTree = "<group>";
+		};
+		F65D2AFA1DEE7973004DAA26 = {
+			isa = PBXGroup;
+			children = (
+				F65D2B051DEE7973004DAA26 /* YXYCalendar */,
+				F603B7801E48847A005A4AA0 /* YXYCalendarCommonMethods.swift */,
+				F603B77F1E488337005A4AA0 /* YXYCalendar-Bridging-Header.h */,
+				F603B7871E4960EA005A4AA0 /* main.js */,
+				F65D2B041DEE7973004DAA26 /* Products */,
+				1F61B5E42AB35D65E6D18E5F /* Pods */,
+				B5E9A6D4686D99E24A10BEB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F65D2B041DEE7973004DAA26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F65D2B031DEE7973004DAA26 /* YXYCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F65D2B051DEE7973004DAA26 /* YXYCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F603B7781E487CB7005A4AA0 /* JSPatchPlatform.framework */,
+				F64D04991DF55D6F001321C1 /* YXYCalendar */,
+				F65D2B061DEE7973004DAA26 /* AppDelegate.swift */,
+				F65D2B081DEE7973004DAA26 /* ViewController.swift */,
+				F65D2B0A1DEE7973004DAA26 /* Main.storyboard */,
+				F65D2B0D1DEE7973004DAA26 /* Assets.xcassets */,
+				F65D2B0F1DEE7973004DAA26 /* LaunchScreen.storyboard */,
+				F65D2B121DEE7973004DAA26 /* Info.plist */,
+			);
+			path = YXYCalendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F65D2B021DEE7973004DAA26 /* YXYCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F65D2B151DEE7973004DAA26 /* Build configuration list for PBXNativeTarget "YXYCalendar" */;
+			buildPhases = (
+				286FBA1BB060EBC0B4C27DC0 /* [CP] Check Pods Manifest.lock */,
+				F65D2AFF1DEE7973004DAA26 /* Sources */,
+				F65D2B001DEE7973004DAA26 /* Frameworks */,
+				F65D2B011DEE7973004DAA26 /* Resources */,
+				B375FCC7C97511E5EE1B0803 /* [CP] Embed Pods Frameworks */,
+				7F973CC12993BDC7A92C568C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXYCalendar;
+			productName = YXYCalendar;
+			productReference = F65D2B031DEE7973004DAA26 /* YXYCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F65D2AFB1DEE7973004DAA26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YXY.cn;
+				TargetAttributes = {
+					F65D2B021DEE7973004DAA26 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DD7738AKPG;
+					};
+				};
+			};
+			buildConfigurationList = F65D2AFE1DEE7973004DAA26 /* Build configuration list for PBXProject "YXYCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F65D2AFA1DEE7973004DAA26;
+			productRefGroup = F65D2B041DEE7973004DAA26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F65D2B021DEE7973004DAA26 /* YXYCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F65D2B011DEE7973004DAA26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65D2B111DEE7973004DAA26 /* LaunchScreen.storyboard in Resources */,
+				F65D2B0E1DEE7973004DAA26 /* Assets.xcassets in Resources */,
+				F65D2B0C1DEE7973004DAA26 /* Main.storyboard in Resources */,
+				F603B7881E4960EA005A4AA0 /* main.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		286FBA1BB060EBC0B4C27DC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F973CC12993BDC7A92C568C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXYCalendar/Pods-YXYCalendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B375FCC7C97511E5EE1B0803 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXYCalendar/Pods-YXYCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F65D2AFF1DEE7973004DAA26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64D04A41DF55D6F001321C1 /* YXYCalendarFooterView.swift in Sources */,
+				F65D2B091DEE7973004DAA26 /* ViewController.swift in Sources */,
+				F603B7811E48847A005A4AA0 /* YXYCalendarCommonMethods.swift in Sources */,
+				F65D2B071DEE7973004DAA26 /* AppDelegate.swift in Sources */,
+				F64D04A31DF55D6F001321C1 /* YXYCalendarCell.swift in Sources */,
+				F64D04A71DF55D6F001321C1 /* YXYCalendarSelectTimeHeaderView.swift in Sources */,
+				F64D04A61DF55D6F001321C1 /* YXYCalendarPicker.swift in Sources */,
+				F64D04A51DF55D6F001321C1 /* YXYCalendarHeaderView.swift in Sources */,
+				F64D04A21DF55D6F001321C1 /* EPExtensions.swift in Sources */,
+				F64D04A11DF55D6F001321C1 /* EPCalendarConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F65D2B0A1DEE7973004DAA26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F65D2B0B1DEE7973004DAA26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F65D2B0F1DEE7973004DAA26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F65D2B101DEE7973004DAA26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F65D2B131DEE7973004DAA26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F65D2B141DEE7973004DAA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F65D2B161DEE7973004DAA26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6386A2746777053E4AFC6CF /* Pods-YXYCalendar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YXYCalendar",
+				);
+				INFOPLIST_FILE = YXYCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.YXY.YXYCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "YXYCalendar-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		F65D2B171DEE7973004DAA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBF05E7B63F4B0C07D4EC772 /* Pods-YXYCalendar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YXYCalendar",
+				);
+				INFOPLIST_FILE = YXYCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.YXY.YXYCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YXYCalendar-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F65D2AFE1DEE7973004DAA26 /* Build configuration list for PBXProject "YXYCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65D2B131DEE7973004DAA26 /* Debug */,
+				F65D2B141DEE7973004DAA26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F65D2B151DEE7973004DAA26 /* Build configuration list for PBXNativeTarget "YXYCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65D2B161DEE7973004DAA26 /* Debug */,
+				F65D2B171DEE7973004DAA26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F65D2AFB1DEE7973004DAA26 /* Project object */;
+}
